@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@font-face {
+    font-family: 'recharge';
+    src: url('../src/assets/recharge/recharge\ bd.otf');
+}
+
+.ff-recharge {
+    font-family: 'recharge', sans-serif;
+}
+
+.ff-poppins {
+    font-family: 'poppins', sans-serif;
+}
+
+:root {
+    --font-weight-md: 400;
+
+    --font-size-sm: 16px;
+    --font-size-md: 18px;
+    --font-size-lg: 20px;
+    --font-size-xl: 24px;
+    --font-size-2xl: 40px;
+    --font-size-3xl: 60px;
+}
+
+.fw-400 {
+    font-weight: var(--font-weight-md);
+}
+
+.fs-16 {
+    font-size: var(--font-size-sm);
+}
+
+.fs-18 {
+    font-size: var(--font-size-md);
+}
+
+.fs-20 {
+    font-size: var(--font-size-lg);
+}
+
+.fs-24 {
+    font-size: var(--font-size-xl);
+}
+
+.fs-40 {
+    font-size: var(--font-size-2xl);
+}
+
+.fs-60 {
+    font-size: var(--font-size-3xl);
+}
+
+@media (max-width:992px) {
+    :root {
+        --font-size-sm: 16px;
+        --font-size-md: 18px;
+        --font-size-lg: 20px;
+        --font-size-xl: 24px;
+        --font-size-2xl: 40px;
+        --font-size-3xl: 58px;
+    }
+}
+
+@media (max-width:768px) {
+    :root {
+        --font-size-sm: 16px;
+        --font-size-md: 18px;
+        --font-size-lg: 20px;
+        --font-size-xl: 24px;
+        --font-size-2xl: 38px;
+        --font-size-3xl: 55px;
+    }
+}
+
+@media (max-width:576px) {
+    :root {
+        --font-size-sm: 12px;
+        --font-size-md: 14px;
+        --font-size-lg: 18px;
+        --font-size-xl: 22px;
+        --font-size-2xl: 34px;
+        --font-size-3xl: 40px;
+    }
+}
